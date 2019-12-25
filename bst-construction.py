@@ -27,7 +27,7 @@ class bst:
             current = current.left
         return current.value
     
-    
+
 
     def remove(self, value, parentnode=None):
         current = self
